@@ -1,0 +1,1 @@
+Code used for lightning talk about KVO along with related patterns in Swift on October 6, 2015.
