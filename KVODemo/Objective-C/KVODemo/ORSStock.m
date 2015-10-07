@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  ORSStock.m
 //  KVODemo
 //
 //  Created by Andrew Madsen on 10/6/15.
 //  Copyright © 2015 Open Reel Software. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ORSStock.h"
 
-@interface ViewController : UIViewController
+@implementation ORSStock
 
 @end
-

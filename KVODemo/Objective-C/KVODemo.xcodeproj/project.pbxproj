@@ -14,7 +14,7 @@
 		9D441F9A1BC4856600B39F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D441F991BC4856600B39F0A /* Assets.xcassets */; };
 		9D441F9D1BC4856600B39F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D441F9B1BC4856600B39F0A /* LaunchScreen.storyboard */; };
 		9D441FA61BC4877A00B39F0A /* ORSStockPriceFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D441FA51BC4877A00B39F0A /* ORSStockPriceFetcher.m */; settings = {ASSET_TAGS = (); }; };
-		9D441FA91BC489D200B39F0A /* ORSAAPLStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D441FA81BC489D200B39F0A /* ORSAAPLStock.m */; settings = {ASSET_TAGS = (); }; };
+		9DEF47C41BC4A47F0063BEC7 /* ORSStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF47C31BC4A47F0063BEC7 /* ORSStock.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		9D441F9E1BC4856600B39F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D441FA41BC4877A00B39F0A /* ORSStockPriceFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSStockPriceFetcher.h; sourceTree = "<group>"; };
 		9D441FA51BC4877A00B39F0A /* ORSStockPriceFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSStockPriceFetcher.m; sourceTree = "<group>"; };
-		9D441FA71BC489D200B39F0A /* ORSAAPLStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSAAPLStock.h; sourceTree = "<group>"; };
-		9D441FA81BC489D200B39F0A /* ORSAAPLStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSAAPLStock.m; sourceTree = "<group>"; };
+		9DEF47C21BC4A47F0063BEC7 /* ORSStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSStock.h; sourceTree = "<group>"; };
+		9DEF47C31BC4A47F0063BEC7 /* ORSStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSStock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 				9D441F911BC4856500B39F0A /* AppDelegate.m */,
 				9D441F931BC4856500B39F0A /* ViewController.h */,
 				9D441F941BC4856500B39F0A /* ViewController.m */,
-				9D441FA71BC489D200B39F0A /* ORSAAPLStock.h */,
-				9D441FA81BC489D200B39F0A /* ORSAAPLStock.m */,
+				9DEF47C21BC4A47F0063BEC7 /* ORSStock.h */,
+				9DEF47C31BC4A47F0063BEC7 /* ORSStock.m */,
 				9D441FA41BC4877A00B39F0A /* ORSStockPriceFetcher.h */,
 				9D441FA51BC4877A00B39F0A /* ORSStockPriceFetcher.m */,
 				9D441F961BC4856600B39F0A /* Main.storyboard */,
@@ -160,9 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D441F951BC4856500B39F0A /* ViewController.m in Sources */,
+				9DEF47C41BC4A47F0063BEC7 /* ORSStock.m in Sources */,
 				9D441FA61BC4877A00B39F0A /* ORSStockPriceFetcher.m in Sources */,
 				9D441F921BC4856500B39F0A /* AppDelegate.m in Sources */,
-				9D441FA91BC489D200B39F0A /* ORSAAPLStock.m in Sources */,
 				9D441F8F1BC4856500B39F0A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ORSAAPLStock.h
+//  ORSStock.h
 //  KVODemo
 //
 //  Created by Andrew Madsen on 10/6/15.
@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ORSAAPLStock : NSObject
+@interface ORSStock : NSObject
 
-@property (nonatomic, readonly) NSString *stockSymbol;
+@property (nonatomic, strong) NSString *symbol;
 @property (nonatomic) float price;
 
 @end

@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class ORSStock;
+
 @interface ORSStockPriceFetcher : NSObject
 
-- (void)fetchPriceOf:(NSString *)stockName completion:(void(^)(float price))completionBlock;
+- (instancetype)initWithStock:(ORSStock *)stock;
+
+@property (nonatomic, strong, readonly) ORSStock *stock;
 
 @end
