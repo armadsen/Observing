@@ -14,6 +14,7 @@
 
 @property (nonatomic, strong) ORSStock *stock;
 @property (nonatomic, strong) ORSStockPriceFetcher *stockFetcher;
+@property (nonatomic, weak) IBOutlet UITextField *stockNameField;
 @property (nonatomic, weak) IBOutlet UILabel *priceLabel;
 
 @end
@@ -26,6 +27,8 @@
 	self.stock = [[ORSStock alloc] init];
 	self.stock.symbol = @"AAPL";
 	self.stockFetcher = [[ORSStockPriceFetcher alloc] initWithStock:self.stock];
+	
+	self.stockNameField.text = self.stock.symbol;
 }
 
 - (void)dealloc
